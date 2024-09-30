@@ -1,0 +1,22 @@
+/* mobile */
+@media (min-width:320px) and (max-width:767px){
+    
+    .navbar .nav-menu{
+        display: none;
+    }
+    .navbar .nav-button{
+        display: none;
+    }
+    .header .information-item{
+        flex-direction: column;
+    }
+
+    
+}
+/* desktop */
+@media (min-width:768px) and (max-width:1439px){
+    .navbar .hamburger{
+        display: none;
+    }
+
+}
